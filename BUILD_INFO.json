@@ -1,0 +1,210 @@
+{
+  "built_utc": "2026-10-06T02:47:25.776548+00:00",
+  "species": 259,
+  "excluded_species": 3,
+  "data_qa": {
+    "species_checked": 259,
+    "all_packed_bits_roundtrip": true,
+    "original_cssdm_maps_preserved": true,
+    "original_ebird_labels_on_cssdm_support_match": true,
+    "original_ebird_validity_on_cssdm_support_match": true,
+    "independent_source_samples_checked": 10360,
+    "passed": true,
+    "full_florida_counties": 67,
+    "original_species": 262,
+    "retained_species": 259,
+    "excluded_species": [
+      "Numida meleagris",
+      "Anser anser",
+      "Cygnus olor"
+    ],
+    "n_web_cells": 592000,
+    "n_cssdm_cells": 579752,
+    "tiff_readback_all_species_all_pixels": true
+  },
+  "browser_qa": {
+    "passed": true,
+    "browser": "153.0.8010.12",
+    "species": 259,
+    "all_species_decoded_and_metrics_checked": true,
+    "shared_view": true,
+    "actual_wheel_and_drag_sync": true,
+    "search_by_name_and_key": true,
+    "full_florida_mask": true,
+    "monroe_ebird_presence_cssdm_nodata": true,
+    "degenerate_threshold_warning": true,
+    "threshold_curve": true,
+    "pixel_inspection_roundtrip": true,
+    "rapid_switch_latest_wins": true,
+    "share_url_reload": true,
+    "github_project_subpath": true,
+    "mobile_side_by_side_no_overflow": true,
+    "external_requests_with_basemap_off": [],
+    "console_errors": [],
+    "basemap_network_tested": false,
+    "tested_files_sha256": {
+      "app.js": "841a9d2f97d57bb05cca12a1cb1c1c80e67f3cc0ea1c5418dd8244feae24a330",
+      "index.html": "31261c5042b28b61daece461e59b192004a49f7008ff42d53787ddea41fe54b9",
+      "style.css": "704d12d95333a2d664badee5654efe4f860c5a4006b23094209b85443760b52f",
+      "data/species.json": "577a3d2f9d37eef37b01b68e79e21659ea790b3fd7642d4cd11305b28e510eff"
+    },
+    "template_fixture_only": false
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "CITATION.md",
+      "bytes": 3321,
+      "sha256": "d88b9baa09878f8e51dfcc1be3889bdd3935686b8dd0a79d2af3b000c533b5e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7559,
+      "sha256": "3f79383f34270656996c7bf9c51f8dd225e514114e95649ede0181876f6d8026"
+    },
+    {
+      "path": "app.js",
+      "bytes": 13897,
+      "sha256": "841a9d2f97d57bb05cca12a1cb1c1c80e67f3cc0ea1c5418dd8244feae24a330"
+    },
+    {
+      "path": "data/counties.geojson",
+      "bytes": 69687,
+      "sha256": "0f4663bb2b7857665f32198b96f43991254029357a47b303d5c0ef23647c1c8c"
+    },
+    {
+      "path": "data/county.u8.gz",
+      "bytes": 8694,
+      "sha256": "b32b7bca42b20b00ed0a8e06b24fc98d9840bcbd581305c8437f9a1c29141d94"
+    },
+    {
+      "path": "data/cssdm-valid.bits.gz",
+      "bytes": 504,
+      "sha256": "ee153f25f0051325679f493f2e05a46de01cb8727f7b34dc6e45dc7b74eb38d5"
+    },
+    {
+      "path": "data/excluded_species.csv",
+      "bytes": 655,
+      "sha256": "75f7037b29edc50e62829fd5f28a90c07f5d82fdf172f7a7ed5fbfe0b580acf0"
+    },
+    {
+      "path": "data/florida_distribution_audit.csv",
+      "bytes": 21656,
+      "sha256": "1c2a3c8ba77fd37486432d6b0fc61e10b3d7a26d85bf2039f4e258837944fdc4"
+    },
+    {
+      "path": "data/grid.u32.gz",
+      "bytes": 822124,
+      "sha256": "d12fde7002f32ecedca3f2c01ba82e97a67887a36b339d69f282c6772d975c4f"
+    },
+    {
+      "path": "data/maps-00.bin",
+      "bytes": 731371,
+      "sha256": "ccc4a5d9583ba66d39164ea75606ad86e42b252a2cb42955b47d5fcf29e8174e"
+    },
+    {
+      "path": "data/maps-01.bin",
+      "bytes": 1257444,
+      "sha256": "10038ebc04480c69f9a5819f1f8edb1d6e246364e21f220a30713479c4349215"
+    },
+    {
+      "path": "data/maps-02.bin",
+      "bytes": 903151,
+      "sha256": "3543fd93973e41ac1c80c0004d89074bbe95b95e3f7af6bec59605e79d8d30d6"
+    },
+    {
+      "path": "data/maps-03.bin",
+      "bytes": 829869,
+      "sha256": "75c8c662efdae93023e0ec75c2616eabfd662eb7fc08e433aa7573efbca97c74"
+    },
+    {
+      "path": "data/maps-04.bin",
+      "bytes": 876426,
+      "sha256": "fe2c678678119499326db6a76a49fc7547279c5fa100ab35ea9995522e23f830"
+    },
+    {
+      "path": "data/maps-05.bin",
+      "bytes": 1177505,
+      "sha256": "8b269e340c42a5ee40ce073266a547ba7d59b5e0df6797bc5c70d9ea9bdb9097"
+    },
+    {
+      "path": "data/maps-06.bin",
+      "bytes": 772990,
+      "sha256": "ec896311a5aea9784c817c97472cc18f0d639bca73f7f08c2e17ae45c99d8f19"
+    },
+    {
+      "path": "data/maps-07.bin",
+      "bytes": 1159978,
+      "sha256": "96d6a885a8cb42ed5b25e5073af0b1917e6b1a81956d1c45dab9f5a4362d6169"
+    },
+    {
+      "path": "data/maps-08.bin",
+      "bytes": 74665,
+      "sha256": "befc1688c4d8acab5632d809b3a1eb8e6911a3ddb9ee154cee0013379909c4e3"
+    },
+    {
+      "path": "data/metadata.json",
+      "bytes": 6016,
+      "sha256": "bc07039564715d1d1f7c9631a63c357bbdfc7cd50aa2239a809658cacd9f57e3"
+    },
+    {
+      "path": "data/previous_model_comparison.csv",
+      "bytes": 372264,
+      "sha256": "608865503f0ce6a54b9c2e2461a0ef3f8e47d6934e1ffa2aedd263df81d574c1"
+    },
+    {
+      "path": "data/species.json",
+      "bytes": 1959382,
+      "sha256": "577a3d2f9d37eef37b01b68e79e21659ea790b3fd7642d4cd11305b28e510eff"
+    },
+    {
+      "path": "data/species_metrics_summary.csv",
+      "bytes": 167331,
+      "sha256": "befa75ae5fed965f8c646fe0c0e924a2f3753afd23bcc784f0a9f024093352f7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6681,
+      "sha256": "31261c5042b28b61daece461e59b192004a49f7008ff42d53787ddea41fe54b9"
+    },
+    {
+      "path": "style.css",
+      "bytes": 5455,
+      "sha256": "704d12d95333a2d664badee5654efe4f860c5a4006b23094209b85443760b52f"
+    },
+    {
+      "path": "vendor/OPENLAYERS-LICENSE.md",
+      "bytes": 1337,
+      "sha256": "6c4347b83a8c9feef18d57b18e3b6c44cf901b3c344a4a1fbd837e421555ab8e"
+    },
+    {
+      "path": "vendor/PROJ4-LICENSE.md",
+      "bytes": 1454,
+      "sha256": "d514fd8b286fc00a5c97a29f8a99b73f1a4053bbdd00c400aee5f24a1b6b301e"
+    },
+    {
+      "path": "vendor/README.md",
+      "bytes": 195,
+      "sha256": "eafa2e9a9846821e16034b511e9033e3734d0ea19205f0847170667fa550d605"
+    },
+    {
+      "path": "vendor/ol.css",
+      "bytes": 6343,
+      "sha256": "abc8afd72cc10bd29cc143f443bae4a6804bd3cb3fb262e6b6a6bc6c924ea34f"
+    },
+    {
+      "path": "vendor/ol.js",
+      "bytes": 1043059,
+      "sha256": "b89af8ec3b76f564d515fd07fed3ec414aecf8f33f685b77b607451cb0c2029f"
+    },
+    {
+      "path": "vendor/proj4.js",
+      "bytes": 129066,
+      "sha256": "4c081b72f30222bc31f553923f8c8e543db337bbb4b0c478cf798c7a93b35ab6"
+    }
+  ]
+}

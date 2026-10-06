@@ -1,0 +1,375 @@
+{
+  "width": 1452,
+  "height": 1456,
+  "crs": "EPSG:32617",
+  "extent": [
+    -135099.0,
+    2714730.0,
+    596709.0,
+    3448554.0
+  ],
+  "transform": [
+    504.0,
+    0.0,
+    -135099.0,
+    0.0,
+    -504.0,
+    3448554.0
+  ],
+  "cell_size_m": 504,
+  "ebird_cell_size_m": 3000,
+  "n_cells": 592000,
+  "bytes_per_layer": 74000,
+  "cssdm_cells": 579752,
+  "species_count": 259,
+  "excluded_count": 3,
+  "missing_cssdm_counties": [
+    "Monroe"
+  ],
+  "bit_order": "little",
+  "packed_layers": [
+    "cssdm_presence",
+    "ebird_presence",
+    "ebird_valid"
+  ],
+  "audit_rule": "Retain when any native eBird pixel intersecting Florida (all 67 counties, all_touched=True) has positive abundance.",
+  "website_mask": "504m pixel centers inside a Florida county, union original CSSDM support.",
+  "metrics_scope": "Original 579752 CSSDM cells in 66 counties; eBird NoData counted as absence for threshold fitting.",
+  "counties": [
+    {
+      "id": 1,
+      "name": "Alachua",
+      "fips": "12001"
+    },
+    {
+      "id": 2,
+      "name": "Baker",
+      "fips": "12003"
+    },
+    {
+      "id": 3,
+      "name": "Bay",
+      "fips": "12005"
+    },
+    {
+      "id": 4,
+      "name": "Bradford",
+      "fips": "12007"
+    },
+    {
+      "id": 5,
+      "name": "Brevard",
+      "fips": "12009"
+    },
+    {
+      "id": 6,
+      "name": "Broward",
+      "fips": "12011"
+    },
+    {
+      "id": 7,
+      "name": "Calhoun",
+      "fips": "12013"
+    },
+    {
+      "id": 8,
+      "name": "Charlotte",
+      "fips": "12015"
+    },
+    {
+      "id": 9,
+      "name": "Citrus",
+      "fips": "12017"
+    },
+    {
+      "id": 10,
+      "name": "Clay",
+      "fips": "12019"
+    },
+    {
+      "id": 11,
+      "name": "Collier",
+      "fips": "12021"
+    },
+    {
+      "id": 12,
+      "name": "Columbia",
+      "fips": "12023"
+    },
+    {
+      "id": 13,
+      "name": "DeSoto",
+      "fips": "12027"
+    },
+    {
+      "id": 14,
+      "name": "Dixie",
+      "fips": "12029"
+    },
+    {
+      "id": 15,
+      "name": "Duval",
+      "fips": "12031"
+    },
+    {
+      "id": 16,
+      "name": "Escambia",
+      "fips": "12033"
+    },
+    {
+      "id": 17,
+      "name": "Flagler",
+      "fips": "12035"
+    },
+    {
+      "id": 18,
+      "name": "Franklin",
+      "fips": "12037"
+    },
+    {
+      "id": 19,
+      "name": "Gadsden",
+      "fips": "12039"
+    },
+    {
+      "id": 20,
+      "name": "Gilchrist",
+      "fips": "12041"
+    },
+    {
+      "id": 21,
+      "name": "Glades",
+      "fips": "12043"
+    },
+    {
+      "id": 22,
+      "name": "Gulf",
+      "fips": "12045"
+    },
+    {
+      "id": 23,
+      "name": "Hamilton",
+      "fips": "12047"
+    },
+    {
+      "id": 24,
+      "name": "Hardee",
+      "fips": "12049"
+    },
+    {
+      "id": 25,
+      "name": "Hendry",
+      "fips": "12051"
+    },
+    {
+      "id": 26,
+      "name": "Hernando",
+      "fips": "12053"
+    },
+    {
+      "id": 27,
+      "name": "Highlands",
+      "fips": "12055"
+    },
+    {
+      "id": 28,
+      "name": "Hillsborough",
+      "fips": "12057"
+    },
+    {
+      "id": 29,
+      "name": "Holmes",
+      "fips": "12059"
+    },
+    {
+      "id": 30,
+      "name": "Indian River",
+      "fips": "12061"
+    },
+    {
+      "id": 31,
+      "name": "Jackson",
+      "fips": "12063"
+    },
+    {
+      "id": 32,
+      "name": "Jefferson",
+      "fips": "12065"
+    },
+    {
+      "id": 33,
+      "name": "Lafayette",
+      "fips": "12067"
+    },
+    {
+      "id": 34,
+      "name": "Lake",
+      "fips": "12069"
+    },
+    {
+      "id": 35,
+      "name": "Lee",
+      "fips": "12071"
+    },
+    {
+      "id": 36,
+      "name": "Leon",
+      "fips": "12073"
+    },
+    {
+      "id": 37,
+      "name": "Levy",
+      "fips": "12075"
+    },
+    {
+      "id": 38,
+      "name": "Liberty",
+      "fips": "12077"
+    },
+    {
+      "id": 39,
+      "name": "Madison",
+      "fips": "12079"
+    },
+    {
+      "id": 40,
+      "name": "Manatee",
+      "fips": "12081"
+    },
+    {
+      "id": 41,
+      "name": "Marion",
+      "fips": "12083"
+    },
+    {
+      "id": 42,
+      "name": "Martin",
+      "fips": "12085"
+    },
+    {
+      "id": 43,
+      "name": "Miami-Dade",
+      "fips": "12086"
+    },
+    {
+      "id": 44,
+      "name": "Monroe",
+      "fips": "12087"
+    },
+    {
+      "id": 45,
+      "name": "Nassau",
+      "fips": "12089"
+    },
+    {
+      "id": 46,
+      "name": "Okaloosa",
+      "fips": "12091"
+    },
+    {
+      "id": 47,
+      "name": "Okeechobee",
+      "fips": "12093"
+    },
+    {
+      "id": 48,
+      "name": "Orange",
+      "fips": "12095"
+    },
+    {
+      "id": 49,
+      "name": "Osceola",
+      "fips": "12097"
+    },
+    {
+      "id": 50,
+      "name": "Palm Beach",
+      "fips": "12099"
+    },
+    {
+      "id": 51,
+      "name": "Pasco",
+      "fips": "12101"
+    },
+    {
+      "id": 52,
+      "name": "Pinellas",
+      "fips": "12103"
+    },
+    {
+      "id": 53,
+      "name": "Polk",
+      "fips": "12105"
+    },
+    {
+      "id": 54,
+      "name": "Putnam",
+      "fips": "12107"
+    },
+    {
+      "id": 55,
+      "name": "St. Johns",
+      "fips": "12109"
+    },
+    {
+      "id": 56,
+      "name": "St. Lucie",
+      "fips": "12111"
+    },
+    {
+      "id": 57,
+      "name": "Santa Rosa",
+      "fips": "12113"
+    },
+    {
+      "id": 58,
+      "name": "Sarasota",
+      "fips": "12115"
+    },
+    {
+      "id": 59,
+      "name": "Seminole",
+      "fips": "12117"
+    },
+    {
+      "id": 60,
+      "name": "Sumter",
+      "fips": "12119"
+    },
+    {
+      "id": 61,
+      "name": "Suwannee",
+      "fips": "12121"
+    },
+    {
+      "id": 62,
+      "name": "Taylor",
+      "fips": "12123"
+    },
+    {
+      "id": 63,
+      "name": "Union",
+      "fips": "12125"
+    },
+    {
+      "id": 64,
+      "name": "Volusia",
+      "fips": "12127"
+    },
+    {
+      "id": 65,
+      "name": "Wakulla",
+      "fips": "12129"
+    },
+    {
+      "id": 66,
+      "name": "Walton",
+      "fips": "12131"
+    },
+    {
+      "id": 67,
+      "name": "Washington",
+      "fips": "12133"
+    }
+  ]
+}

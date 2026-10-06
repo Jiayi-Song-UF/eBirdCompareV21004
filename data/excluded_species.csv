@@ -1,0 +1,4 @@
+original_band,speciesKey,model_species,ebird_code,ebird_common_name,n_fl_intersecting_ebird_pixels,n_fl_presence_pixels,n_fl_zero_pixels,n_fl_nodata_pixels,retained,exclusion_reason
+1,2473341,Numida meleagris,helgui,Helmeted Guineafowl,17484,0,17334,150,False,No positive abundance in any native eBird pixel intersecting Florida (all 67 counties)
+156,2498036,Anser anser,gragoo,Graylag Goose,17484,0,17334,150,False,No positive abundance in any native eBird pixel intersecting Florida (all 67 counties)
+169,2498343,Cygnus olor,mutswa,Mute Swan,17484,0,17334,150,False,No positive abundance in any native eBird pixel intersecting Florida (all 67 counties)
